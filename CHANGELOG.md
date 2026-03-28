@@ -1,3 +1,24 @@
+## v0.1.10
+
+![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square&logo=apple) ![Version](https://img.shields.io/badge/Release-v0.1.10-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)
+
+> 此版本为 **beta-final 维护线首个版本**：
+> 基于上游 `Sitoi/ClashBar` 提交 [`9ad1cada02bed1d3f2568dbb3321ca7eb70996a3`](https://github.com/Sitoi/ClashBar/commit/9ad1cada02bed1d3f2568dbb3321ca7eb70996a3)（对应 `v0.2.1` 时点，后续上游改动未合入），并叠加本仓库独立更新。
+
+### 📝 更新日志 (Changelog)
+
+**✨ 新增功能 (New Features)**
+
+- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **配置菜单状态信息**：在切换配置菜单中新增“文件变更时间 / 最后检查成功时间”两行状态，打开菜单或更新成功时刷新展示。
+
+**🚀 优化改进 (Improvements)**
+
+- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **配置项操作一致性**：复用现有双行信息组件，统一配置列表中的状态信息与交互反馈。
+
+**🐞 修复问题 (Bug Fixes)**
+
+- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **订阅配置刷新反馈**：补充单项远程订阅配置刷新入口与过程反馈，减少“点击后无感知”的操作不确定性。
+
 ## v0.2.1
 
 ![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square&logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.1-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)
